@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: webapp:17
+        image: webapp:PLACEHOLDER
         ports:
         - containerPort: 8081
