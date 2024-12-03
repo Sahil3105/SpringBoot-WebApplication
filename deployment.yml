@@ -5,7 +5,7 @@ metadata:
   labels:
     app: spring-boot-app
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: spring-boot-app
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: webapp:PLACEHOLDER
+        image: webapp:${BUILD_NUMBER} 
         ports:
         - containerPort: 8081
