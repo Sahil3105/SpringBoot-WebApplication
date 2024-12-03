@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: webapp:${BUILD_NUMBER} 
+        image: sahil3105/webapp:9
         ports:
         - containerPort: 8081
