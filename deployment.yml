@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: sahil3105/webapp: replaceImageTag # Correct image reference
+        image: sahil3105/webapp:replaceImageTag  # This will be replaced dynamically in the Jenkins pipeline
         ports:
         - containerPort: 8081
