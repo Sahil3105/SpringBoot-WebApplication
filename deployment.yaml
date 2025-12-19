@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app-container
-        image: sahil3105/longtime:7
+        image: sahil3105/longtime:8
         imagePullPolicy: Always
         ports:
         - containerPort: 8082  # If your Spring Boot app runs on 8082 internally
